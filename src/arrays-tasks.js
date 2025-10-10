@@ -249,7 +249,7 @@ function doubleArray(arr) {
  *    toStringList(['rock', 'paper', 'scissors']) => 'rock,paper,scissors'
  */
 function toStringList(arr) {
-  throw new Error('Not implemented');
+  return arr.join(',');
 }
 
 /**
